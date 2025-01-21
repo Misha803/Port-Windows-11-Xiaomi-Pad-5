@@ -7,7 +7,7 @@
 ### Prerequisites
 - ```Brain```
 
-- [```DriveLetterAssigner```](https://github.com/Misha803/My-Scripts/releases/tag/DriveLetterAssigner)
+- [```DriveLetterAssigner Tool```](https://github.com/Misha803/My-Scripts/releases/tag/DriveLetterAssigner)
   
 - [```ARM Windows ESD```](https://arkt-7.github.io/woawin/)
     
@@ -28,14 +28,14 @@ adb shell msc
 ```
 
 ### Assign letters to WINNABU and ESPNABU
-> Open the **DriveLetterAssigner** script and press `Y` on your keyboard to automatically assign the letters **X** and **Y** to **WINNABU** and **ESPNABU**
+> Run the **DriveLetterAssigner** and click **`YES`** to automatically assign the letters **X** and **Y** to **WINNABU** and **ESPNABU**
 
 ### Installing Windows
 > [!Important]
 > Make sure that you are running CMD/Powershell as an **Administrator**
 
-> [!Warning]
-> DO NOT USE 24H2!!!
+> [!Important]
+> For performance reasons, it is recommended to use Windows 11 24H2 (builds that start with 261XX, such as 26100.2454)
 
 > Replace `path\to\install.esd` with the actual path of install.esd (it may also be named install.wim or 22631.2861.XXXXXXX.esd)
 
@@ -53,7 +53,7 @@ dism /apply-image /ImageFile:path\to\install.esd /index:6 /ApplyDir:X:\
 
 > If it asks you to enter a letter, enter the drive letter of **WINNABU** (which should be **X**), then press enter
 
-#### Create Windows bootloader files for the EFI
+#### Create Windows bootloader files
 > If an error occurs when copying boot files, run **DriveLetterAssigner** again, then run the following command again, replacing **Y** with **U**
 ```cmd
 bcdboot X:\Windows /s Y: /f UEFI
@@ -79,23 +79,4 @@ fastboot boot path\to\nabu-uefi.img
 ### Reboot into Android
 > Your device should reboot by itself after +- 10 minutes of waiting, after which you will be booted into Android, for the last step.
 
-## [Last step: Setting up dualboot](/guide/English/4-dualboot-en.md)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+## [Last step: Setting up dualboot](/guide/English/dualboot-selection-en.md)

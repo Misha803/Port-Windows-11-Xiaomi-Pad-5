@@ -2,44 +2,98 @@
 
 # Running Windows on the Xiaomi Pad 5
 
-## Restoring the device in EDL mode
-> This is done as a last resort when your device either only boots to EDL mode by itself, or if you are unable to restore it with other means
+## Restoring the Device in EDL Mode
+> This guide includes two methods to flash your device in, if method 1 fails, use method 2
+
+### Entering EDL Mode
+> There are two methods for booting your Xiaomi Pad 5 into **EDL mode**. Use whichever one applies to you.
+
+> [!NOTE]
+>
+> ▶️ Click to expand the menu.
+
+<details>
+  <summary><strong>Method 1: Unlocked bootloader</strong></summary>
+
+> If your bootloader is unlocked, simply run the following command in **fastboot mode**
+```cmd
+fastboot oem edl
+```
+
+</details>
+
+<details>
+  <summary><strong>Method 2: Locked bootloader or unbootable device</strong></summary>
+
+- Insert an **EDL cable** if you have one into your device and press the button on the cable to boot into **EDL mode**.
+> EDL cables that can be found online which should work must include V2 in the name, for example **Hydra V2 EDL Cable**.
+- Alternatively, **short the test points** (requires opening the back panel of your device).
+
+</details>
+
+### Checking if everything is alright
+- Open **Device Manager** on your PC and look for a new device, such as **Qualcomm HS-USB QDLoader 9008**.
+- If the device is named **QUSB_BULK_CID** and/or has a yellow warning ⚠️ in **Device Manager**, you need install/update the drivers.
+- To do this, ownload and extract **[QUD.zip](https://github.com/n00b69/woa-betalm/releases/download/Qfil/QUD.zip)** file, select the device with errors in Device Manager, select **Update drivers**, then select the **QUD folder** you extracted.
+
+> [!NOTE]
+>
+> ▶️ Click to expand the menu.
+
+<details>
+  <summary><strong>Method 1: Free method</strong></summary>
+
+## Method 1: Free method
 
 ### Prerequisites
-- A crypto wallet with $3 USDT
+- [`Patched MiFlash Tool`](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/MiFlashPatched.zip)
 
-- [A Telegram account](https://telegram.org)
+- [`Patched firehose (.elf) file`](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/prog_ufs_firehose_sm7150_ddr.elf)
 
-- [MiFlash HXRU Auth Tool](https://hxrutool.com)
+- `Extracted` [`fastboot ROM for Nabu`](http://xmfirmwareupdater.com/miui/nabu/) 
 
-- [Stock fastboot rom](http://xmfirmwareupdater.com/miui/nabu/)
+### Preparing necessary files
+- Unzip the **fastboot ROM** for your Xiaomi Pad 5.
+- Unzip the **MiflashPatched.zip** file you downloaded earlier.
+- Copy the **firehose (.elf)** file from the **MiflashPatched.zip** folder into the **images** folder inside your extracted **fastboot ROM**, overwriting the existing file.
 
-### Setting up HXRU Tool
-- Create a HRXU account [here](https://dashboard.hxrutool.com/Register)
-- Download **MiFlash HXRU Auth Tool** on the homepage
-- Inside **MiFlash_HXRU.rar** you will find a folder with a file inside called **PASS123.rar**, open it with password `123`
-- Inside this protected archive is a folder containing **MiFlash_HXRU.zip**. Extract its contents somewhere
+#### Open MiFlash Tool 
+- Navigate to the **MiFlash** folder inside the extracted **MiflashPatched.zip**.
+- Launch **XiaoMiFlash.exe** as an administrator.
 
-### Buy credits
-> Contact [@hxruofficial](https://t.me/hxruofficial) on Telegram to buy credits.
-> 
-> You will need **5** credits to flash your device using this tool, which will cost around **$3**
+### Flashing the ROM
+- Click the **Select** button in **MiFlash** and choose the folder where you extracted your **fastboot ROM** (the one where you replaced the **firehose.elf** file).
+- In the **MiFlash** tool, ensure the **"Clean All"** option is checked.
+- Click **Refresh** in **MiFlash** to verify the connection to your device.
+- After confirming your device is detected and the **"Clean All"** option is selected, click **Flash** to start the flashing process.
 
-### Booting into EDL mode
-> [!Note]
-> If you're already in EDL mode, skip this step and continue with "Flashing your device"
-- If your bootloader is unlocked and if you have access to fastboot mode, run ```fastboot oem edl``` to boot to EDL mode.
+> [!Important]
+> If you see any error that doesn't go away after 2 minutes, reboot the device into **EDL mode** again, then click **Refresh** and **Flash** again to retry.
 
-> If your bootloader is locked, or Android doesn't boot and you cannot access fastboot mode in any way, you will need to either remove the back of your device to short the EDL testpoints, or you will have to use an EDL cable
->
-> (Not all EDL cables work and you may risk wasting money on one that won't, but this is probably still better than having to open your device).
-- Look for a cable that has **V2** in its name, for example **Hydra V2 EDL Cable** or **V2 EDL Pro Cable**. Make sure it is for USB-C devices.
-- Insert the cable into your device, then hold the button on the cable which may look like [this](https://t.me/nabuwoa/204867).
-- It should boot you into EDL mode now.
+#### Reboot the device
+- Once the flashing is complete, click the **Reboot** button to restart the device.
 
-### Installing EDL drivers
-> If the device in **Device Manager** is called **QUSB_BULK_CID** or has a ⚠️ yellow warning triangle / question mark, and is located in any other category (for example **Other devices**), you need to install EDL drivers first.
-- To install EDL drivers, extract the contents of [QUD.zip](https://github.com/n00b69/woa-betalm/releases/download/Qfil/QUD.zip) somewhere, right click on **QUSB_BULK_CID**, click on **Update driver** and **Browse my computer for drivers**, then find and select the **QUD** folder.
+</details>
+
+<details>
+  <summary><strong>Method 2: Paid EDL method</strong></summary>
+
+## Method 2: Paid Flashing via HXRU Tool
+
+### Prerequisites 
+- `$3 USDT` and a crypto wallet for credits (some Russian bank accounts are also accepted)
+
+- `Telegram account` for communication with HXRU support
+
+- [`MiFlash HXRU Tool`](https://hxrutool.net/tool/Xiaomi_Auth_Tool_v9.0.0.5_mtk.zip)
+ 
+- [`Stock fastboot ROM for Nabu`](http://xmfirmwareupdater.com/miui/nabu/)  
+### Setting up HXRU Tool  
+- Create an account on **[HXRU dashboard](https://dashboard.hxrutool.com/Register)**.
+- Download and extract the **MiFlash HXRU** tool.
+
+#### Buy Credits 
+- Contact **@hxruofficial** on Telegram to purchase **5 credits** (approx. **$3**). You need these credits to proceed with flashing your device.
 
 ### Flashing your device
 - Open **XiaoMiFlash.exe** and grant it administrator access.
@@ -48,16 +102,41 @@
 - Press **flash**.
 - If you get a `write time out` error, hold the **power** + **volume down** button for +- 30 seconds to reboot EDL. After this press the **flash** button again.
 - After a few seconds a login popup should show up. Enter your HRXU account details here and press **Request Auth Flashing**.
-- After it says **flash done**, reboot your device by holding **power** +- 14 seconds.
+
+#### Reboot the device
+- After it says **flash done**, reboot your device by holding **power** for +- 14 seconds.
+
+</details>
 
 ### Reflashing your rom with MiFlash
-> [!Important]
-> This tool only flashes the rom to one slot. If your device ever switches slots, it'll boot back into EDL again.
+> [!Warning]
+> These tools only flash the rom to one slot. If your device ever switches slots, it'll boot back into EDL again.
 - Reboot to fastboot mode.
 - Flash the fastboot rom a second time using **MiFlash** or with the **flash_all.bat** file in the rom.
 - Reboot after it finishes flashing.
 
-## Finished!
+#### Success!
+Your Xiaomi Pad 5 should now be successfully restored to its original working state!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

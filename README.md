@@ -13,41 +13,46 @@
 > - This project is in late stages of development, all the files here have been contributed by other users, here you will find a guide with the working files we managed to get. This is a delicate process, do it under your own risk and follow all the steps carefully.
 
 > [!WARNING]
-> **IF YOU AREN'T COMFORTABLE MODDING YOUR TABLET OR ITS PARTITION TABLE OR YOU ARE PARANOID OF BRICKING YOUR DEVICE CLICK AWAY NOW!!! YOU HAVE BEEN WARNED, YOU ARE ON YOUR OWN IF YOU BRICK YOUR DEVICE!!! AGAIN! YOU HAVE BEEN WARNED!!!**
+> **If you're not comfortable with modding your tablet or its partition table, or worried about bricking your device, it's okay to take a step back. But the process is simple, so even beginners can handle it. Just follow the instructions carefully, and you should be fine.**
 
 > [!WARNING]
-> **DO NOT USE VIDEO GUIDES**
+> **DO NOT USE VIDEO GUIDES!**
+> 
 > If you do, we will not be able to help you if you mess up.
 
 
 ## Get Started
 
-- [**```IMPORTANT: READ FIRST!```**](guide/English/important.md)
+- [**```📖IMPORTANT: READ FIRST!```**](guide/English/important.md)
 
-- [**`Project status`**](guide/English/status.md)
+- [**`📊Project status`**](guide/English/status.md)
 
-- [**`Installation`**](guide/English/selection-en.md)
+- [**`📥Installation`**](guide/English/selection-en.md)
 
-- [**`Uninstallation`**](guide/English/uninstall-en.md)
+- [**`🗑️Uninstallation`**](guide/English/uninstall-en.md)
 
 
 ## Miscellaneous
 
-- [**`Bootloader unlocking guide`**](guide/English/unlock-bootloader-en.md)
+- [**`🔓Bootloader unlocking guide`**](guide/English/unlock-bootloader-en.md)
 
-- [**`Dualboot setup`**](guide/English/dualboot-en.md)
+- [**`🔀Dualboot setup`**](guide/English/dualboot-selection2-en.md)
 
-- [**`Troubleshooting`**](guide/English/troubleshooting-en.md)
+- [**`🔧Troubleshooting`**](guide/English/troubleshooting-en.md)
 
-- [**`Updating drivers`**](guide/English/update-en.md)
+- [**`🔄Updating drivers`**](guide/English/update-en.md)
 
-- [**`Updating UEFI`**](guide/English/UEFI-updating-en.md)
+- [**`🔄Updating UEFI`**](guide/English/UEFI-updating-en.md)
 
-- [**`Reinstallation`**](guide/English/reinstall-en.md)
+- [**`♻️Reinstallation`**](guide/English/reinstall-en.md)
 
-- [**`Re-rooting Android`**](guide/English/Re-rooting-en.md)
+- [**`📱Re-rooting Android`**](guide/English/Re-rooting-en.md)
 
-- [**`Useful apps and instructions`**](guide/English/Additional-materials-en.md)
+- [**`📂Useful apps and instructions`**](guide/English/Additional-materials-en.md)
+
+- [**`🔧Fix GPT to Use Windows 24H2`**](guide/English/fix-gpt-en.md)
+
+- [**`🧱Restoring the Device in EDL Mode`**](guide/English/edl.md)
 
 
 
@@ -80,3 +85,5 @@
 [<img alt="Ost268" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/99175924?s=96&v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/galaxysollector)
 [<img alt="gvzd" src="https://i.ibb.co/VxsvNZ6/Ellipse-1.png" />](https://https://github.com/gvzd)
 [<img alt="chiyuki0325" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/73830635?s=96&v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/chiyuki0325)
+[<img alt="Kumar-Jy" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/20044626?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/Kumar-Jy)
+[<img alt="ArKT-7" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/157277855?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/ArKT-7)
