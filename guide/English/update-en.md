@@ -9,7 +9,7 @@
 
 - [Modified recovery image](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/1.0/recovery.img)
 
-- [UEFI image](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/UEFI/uefi-v3.img)
+- [UEFI image](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/UEFI)
 
 - [Drivers](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/Drivers)
 
@@ -48,13 +48,14 @@ exit
 
 ### Installing drivers
 > [!Note]
-> This process will take +- 20 minutes. Do not worry, this is normal.
+> This process will take between 3 and 6 hours Do not worry, this is normal.
 
 - Unpack the driver archive, then open the `OfflineUpdater.cmd` file (if an error shows up, run `OfflineUpdaterFix.cmd` instead)
 
 > If it asks you to enter a letter, enter the drive letter of **WINNABU** (which should be **X**), then press enter
 
 #### Reboot your device
+> [!Warning]
 > Make sure to also change the UEFI image in Android, otherwise you may face a "blue screen of death" (BSoD) when booting Windows later.
 ```cmd
 adb reboot

@@ -5,7 +5,7 @@
 [![Telegram](https://img.shields.io/badge/Chat-Telegram-brightgreen.svg?logo=telegram&style=flat-square)](https://t.me/nabuwoa)
 
 ## Language 
-[```Русский```](/guide/Russian/README-RU.md) | **```English```** | [```Português```](/guide/Portuguese/README-PT.md) | [```Türkçe```](/guide/Turkish/README-tr.md) | [```Ukrainian```](/guide/Ukrainian/README-uk.md) | [```한국어```](/guide/Korean/README-KO.md) | [```简体中文```](/guide/Simplified%20Chinese/README-CN.md)
+[```Русский```](/guide/Russian/README-RU.md) | **```English```** | ~~[```Português```](/guide/Portuguese/README-PT.md)~~ | ~~[```Türkçe```](/guide/Turkish/README-tr.md)~~ | [```Ukrainian```](/guide/Ukrainian/README-uk.md) | [```한국어```](/guide/Korean/README-KO.md) | ~~[```简体中文```](/guide/Simplified%20Chinese/README-CN.md)~~
 
 ## ⚠️ Warning
 > [!NOTE]
@@ -14,6 +14,22 @@
 
 > [!WARNING]
 > **If you're not comfortable with modding your tablet or its partition table, or worried about bricking your device, it's okay to take a step back. But the process is simple, so even beginners can handle it. Just follow the instructions carefully, and you should be fine.**
+
+
+> [!CAUTION]
+> **❗For everyone not using latest drivers and UEFI you MUST update or reinstall Windows and use the [latest release](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/Drivers) (v2501.27)❗**
+>
+> **Otherwise you have a constant risk of your UFS DYING AT ANY TIME NO MATTER WHAT!**
+>
+> [**Reinstall guide**](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/blob/main/guide/English/reinstall-en.md)
+>
+> [**Update guide**](https://github.com/Kumar-Jy/Windows-in-NABU-Without-PC/blob/main/guide/DriverUpdate.md)
+>
+> **UPDATING IS ONLY POSSIBLE WITH WININSTALLER AND WILL TAKE 3.5 HOURS. MAKE SURE YOUR BATTERY IS FULL.**
+>
+>
+> **❗️REINSTALLING IS RECOMMENDED BECAUSE THE NEXT UPDATE WILL REQUIRE A REINSTALL IF YOU UPDATED FROM OLDER DRIVERS❗️**
+
 
 > [!WARNING]
 > **DO NOT USE VIDEO GUIDES!**
@@ -27,7 +43,7 @@
 
 - [**`📊Project status`**](guide/English/status.md)
 
-- [**`📥Installation`**](guide/English/selection-en.md)
+- [**`📥Installation`**](guide/English/installation-selection-en.md)
 
 - [**`🗑️Uninstallation`**](guide/English/uninstall-en.md)
 
@@ -40,9 +56,7 @@
 
 - [**`🔧Troubleshooting`**](guide/English/troubleshooting-en.md)
 
-- [**`🔄Updating drivers`**](guide/English/update-en.md)
-
-- [**`🔄Updating UEFI`**](guide/English/UEFI-updating-en.md)
+- [**`🔄Updating drivers / UEFI`**](guide/English/update-en.md)
 
 - [**`♻️Reinstallation`**](guide/English/reinstall-en.md)
 

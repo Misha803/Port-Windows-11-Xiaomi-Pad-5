@@ -3,7 +3,7 @@
 
 # Запуск Windows на Xiaomi Pad 5
 
-[![Telegram](https://img.shields.io/badge/Chat-Telegram-brightgreen.svg?logo=telegram&style=flat-square)](https://t.me/nabuwoa)
+[![Telegram](https://img.shields.io/badge/Chat-Telegram-brightgreen.svg?logo=telegram&style=flat-square)](https://t.me/nabuwoaru)
 
 ## Языки
 **```Русский```** | [```English```](/README.md) | [```Português```](/guide/Portuguese/README-PT.md) | [```Türkçe```](/guide/Turkish/README-tr.md) | [```Ukrainian```](/guide/Ukrainian/README-uk.md) | [```한국어```](/guide/Korean/README-KO.md) |  [```简体中文```](/guide/Simplified%20Chinese/README-CN.md)
@@ -24,29 +24,31 @@
 
 ## Начнём
 
-- [**`Статус Проекта`**](status.md)
+- [**`📖ВАЖНО! Перед установкой...`**](important-ru.md)
   
-- [**`Установка`**](selection-ru.md)
+- [**`📊Статус Проекта`**](status.md)
+  
+- [**`📥Установка`**](selection-ru.md)
 
-- [**`Удаление`**](uninstall-ru.md)
+- [**`🗑️Удаление`**](uninstall-ru.md)
 
 ## Прочее 
 
-- [**`Руководство по разблокировке загрузчика`**](/guide/Russian/unlock-bootloader-ru.md)
+- [**`🔓Руководство по разблокировке загрузчика`**](/guide/Russian/unlock-bootloader-ru.md)
 
-- [**`Настройка двойной загрузки`**](dualboot-ru.md)
+- [**`🔀Настройка двойной загрузки`**](dualboot-ru.md)
 
-- [**`Исправление проблем`**](troubleshooting-ru.md)
+- [**`🔧Исправление проблем`**](troubleshooting-ru.md)
 
-- [**`Обновление Драйверов`**](update-ru.md)
+- [**`🔄Обновление Драйверов`**](update-ru.md)
   
-- [**`Обновление UEFI`**](UEFI-updating-ru.md)
+- [**`🔄Обновление UEFI`**](UEFI-updating-ru.md)
 
-- [**`Переустановка`**](reinstall-ru.md)
+- [**`♻️Переустановка`**](reinstall-ru.md)
 
-- [**`Re-rooting Android`**](Re-rooting-ru.md)
+- [**`📱Ре-рутинг Android`**](Re-rooting-ru.md)
 
-- [**`Полезные приложения и инструкции`**](Additional-materials-ru.md)
+- [**`📂Полезные приложения и инструкции`**](Additional-materials-ru.md)
 
 ## Соавторы 
 [<img alt="Icesito68" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/113939920?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/Icesito68)

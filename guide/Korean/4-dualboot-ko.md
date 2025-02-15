@@ -7,7 +7,7 @@
 ### 준비물
 - [```Magisk```](https://github.com/topjohnwu/Magisk/releases/latest)
   
-- [```UEFI 이미지```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/UEFI/uefi-v3.img)
+- [```UEFI 이미지```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/UEFI)
   
 - [```WoA Helper 앱```](https://github.com/n00b69/woa-helper/releases/tag/APK)
 
@@ -30,6 +30,14 @@
 - 앱 내에서 `WINDOWS로 즉시 부팅`을 선택하거나, 퀵패널에 새로 생성된 토글 버튼을 선택하세요
   
 ## 끝!
+
+
+
+
+
+
+
+
 
 
 
