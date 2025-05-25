@@ -1,69 +1,69 @@
-<img align="right" src="https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/nabu.png" width="425" alt="Windows 11 Running On A Xiaomi Pad 5">
+<img align="right" src="https://raw.githubusercontent.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/main/nabu.png" width="425" alt="Запуск Windows на Xiaomi Pad 5">
 
 
 # Запуск Windows на Xiaomi Pad 5
 
-[![Telegram](https://img.shields.io/badge/Chat-Telegram-brightgreen.svg?logo=telegram&style=flat-square)](https://t.me/nabuwoa)
+[![Telegram](https://img.shields.io/badge/Chat-Telegram-brightgreen.svg?logo=telegram&style=flat-square)](https://t.me/nabuwoaru)
 
 ## Языки
 **```Русский```** | [```English```](/README.md) | [```Ukrainian```](/guide/Ukrainian/README-uk.md) | [```한국어```](/guide/Korean/README-KO.md)
 
 ## ⚠️ Предупреждение
 > [!NOTE]
-> - Мы не ответственны за нерабочие устройства, отсутствие необходимых разделов, некачественную работу сотрудников на производственных линиях Xiaomi, нерабочие карты памяти, вышедшие из строя чипы управления питанием, неисправную оперативную память, нерабочие контроллеры экрана, неисправные процессоры, а также за гибель кошек, собак и возможные ядерные конфликты.
-> - Установка Windows — это ответственный процесс, который требует внимательности и осторожности. Пожалуйста, следуйте данной инструкции только на свой страх и риск.                                                   Данный проект находится в стадии разработки, и все файлы, представленные здесь, были предоставлены другими пользователями.                                                                                                    В этом руководстве вы найдете рабочие файлы, которые нам удалось получить. Помните, что это сложный процесс, и мы не несем ответственности за возможные ошибки, которые вы можете совершить. Пожалуйста, будьте внимательны и не пропускайте ни одного шага!
+> - Мы не ответственны за нерабочие устройства, отсутствие необходимых разделов, некачественную работу сотрудников на производственных линиях Xiaomi, вышедшие из строя чипы управления питанием, неисправную оперативную память, нерабочие контроллеры экрана, неисправные процессоры, а также за гибель кошек, собак и возможные ядерные конфликты.
+> - Данный проект находится на поздней стадии разработки, и все файлы, представленные здесь, были предоставлены другими пользователями. В этом руководстве вы найдете рабочие файлы, которые нам удалось получить. Помните, что установка Windows - деликатная задача, и делайте её с осторожностью на свой страх и риск.
 
 > [!WARNING]
-> ЕСЛИ ВЫ ОПАСАЕТЕСЬ ВНОСИТЬ ИЗМЕНЕНИЯ В СВОЙ ПЛАНЕТ ИЛИ НЕ УВЕРЕНЫ, ЧТО СПРАВИТЕСЬ С ЭТОЙ ЗАДАЧЕЙ, ПОЖАЛУЙСТА, ПРЕКРАТИТЕ ЧТЕНИЕ НЕМЕДЛЕННО! ВЫ БЫЛИ ПРЕДУПРЕЖДЕНЫ О ВОЗМОЖНЫХ РИСКАХ, И ОТВЕТСТВЕННОСТЬ ЗА ИХ ПРИНЯТИЕ ЛЕЖИТ НА ВАС.
+> Если вы боитесь модифицировать планшет, изменять его таблицу разделов или получить кирпич, самое время прекратить чтение. Однако установка Windows достачно проста, и даже новички смогут разобраться в ней: просто внимательно следуйте инструкции, и всё получится!
 
 > [!CAUTION]
-> **❗For everyone not using latest drivers and UEFI you MUST update or reinstall Windows and use the [latest release](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/Drivers) (v2501.27)❗**
+> **❗Всем, кто не использует последние версии драйверов и UEFI, необходимо обновить или переустановить Windows и использовать [ПОСЛЕДНЮЮ версию драйверов](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/Drivers) (v2501.27)❗**
 >
-> **Otherwise you have a constant risk of your UFS DYING AT ANY TIME NO MATTER WHAT!**
+> **В ПРОТИВНОМ СЛУЧАЕ ВАША UFS МОЖЕТ УМРЕТЬ В ЛЮБОЙ МОМЕНТ, НЕСМОТРЯ НИ НА ЧТО!**
 >
-> [**Reinstall guide**](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/blob/main/guide/English/reinstall-en.md)
+> [**Руководство по переустановке**](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/blob/main/guide/Russian/reinstall-ru.md)
 >
-> [**Update guide**](https://github.com/Kumar-Jy/Windows-in-NABU-Without-PC/blob/main/guide/DriverUpdate.md)
+> [**Руководство по обновлению**](https://github.com/Kumar-Jy/Windows-in-NABU-Without-PC/blob/main/guide/Russian/DriverUpdate-ru.md)
 >
-> **UPDATING IS ONLY POSSIBLE WITH WININSTALLER AND WILL TAKE 3.5 HOURS. MAKE SURE YOUR BATTERY IS FULL.**
+> **ОБНОВЛЕНИЕ ВОЗМОЖНО ТОЛЬКО С ПОМОЩЬЮ WININSTALLER И ЗАЙМЕТ 3,5 ЧАСА. УБЕДИТЕСЬ, ЧТО ВАША БАТАРЕЯ ЗАРЯЖЕНА.**
 >
 >
-> **❗️REINSTALLING IS RECOMMENDED BECAUSE THE NEXT UPDATE WILL REQUIRE A REINSTALL IF YOU UPDATED FROM OLDER DRIVERS❗️**
+> **❗️РЕКОМЕНДУЕТСЯ ПЕРЕУСТАНОВКА, ПОСКОЛЬКУ СЛЕДУЮЩЕЕ ОБНОВЛЕНИЕ ПОТРЕБУЕТ ПОВТОРНОЙ УСТАНОВКИ, ЕСЛИ ВЫ ОБНОВЛЯЛИСЬ С БОЛЕЕ СТАРЫХ ДРАЙВЕРОВ❗️**
 
 > [!WARNING]
-> **ПОЖАЛУЙСТА, НЕ ИСПОЛЬЗУЙТЕ УСТАРЕВШИЕ ВИДЕОИНСТРУКЦИИ НА YOUTUBE ИЛИ ДРУГИХ ПЛАТФОРМАХ! ЭТИ МАТЕРИАЛЫ НЕ ЯВЛЯЮТСЯ АКТУАЛЬНЫМИ, И ИХ ИСПОЛЬЗОВАНИЕ МОЖЕТ ПРИВЕСТИ К 🧱🧱🧱 ВАШЕГО УСТРОЙСТВА. 
+> **НЕ ИСПОЛЬЗУЙТЕ ВИДЕОИНСТРУКЦИИ НА YOUTUBE ИЛИ ДРУГИХ ПЛАТФОРМАХ! ЭТИ МАТЕРИАЛЫ НЕ ЯВЛЯЮТСЯ АКТУАЛЬНЫМИ, И ИХ ИСПОЛЬЗОВАНИЕ МОЖЕТ ПРИВЕСТИ К 🧱🧱🧱 ВАШЕГО УСТРОЙСТВА.**
+> 
+> Если вы всё же используете их, **мы не поможем вам.**
 
 ## Начнём
 
 - [**`📖ВАЖНО! Перед установкой...`**](important-ru.md)
   
-- [**`📊Статус Проекта`**](status.md)
+- [**`📊Статус проекта`**](status.md)
   
 - [**`📥Установка`**](selection-ru.md)
 
 - [**`🗑️Удаление`**](uninstall-ru.md)
 
-## Прочее 
-
-- [**`🔓Руководство по разблокировке загрузчика`**](/guide/Russian/unlock-bootloader-ru.md)
-
-- [**`🔀Настройка двойной загрузки`**](dualboot-ru.md)
-
-- [**`🔧Исправление проблем`**](troubleshooting-ru.md)
-
-- [**`🔄Обновление Драйверов`**](update-ru.md)
-  
-- [**`🔄Обновление UEFI`**](UEFI-updating-ru.md)
-
-- [**`♻️Переустановка`**](reinstall-ru.md)
-
-- [**`📱Ре-рутинг Android`**](Re-rooting-ru.md)
+## Разное
 
 - [**`📂Полезные приложения и инструкции`**](Additional-materials-ru.md)
 
-- [**`🔧Исправление GPT чтобы безопасно использовать Windows 24H2`**](fix-gpt-ru.md)
+- [**`🔀Настройка двойной загрузки`**](dualboot-ru.md)
+  
+- [**`🔓Руководство по разблокировке загрузчика`**](/guide/Russian/unlock-bootloader-ru.md)
+
+- [**`🔄Обновление драйверов и UEFI`**](update-ru.md)
+
+- [**`📱Ре-рутинг Android`**](Re-rooting-ru.md)
+
+- [**`♻️Переустановка`**](reinstall-ru.md)
+
+- [**`🔧Исправление проблем`**](troubleshooting-ru.md)
 
 - [**`🧱Восстановление устройства в режиме edl`**](edl-ru.md)
+
+
 
 ## Соавторы 
 [<img alt="Icesito68" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/113939920?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/Icesito68)

@@ -6,7 +6,7 @@
 
 ### Требования
 ### Предварительные условия
-- ```Функционирующий мозг (серьезно, вам нужно будет думать!)```
+- ```Наличие функционирующего мозга (серьёзно, вам нужно будет думать!)```
 
 - [```Инструменты платформы Android```](https://developer.android.com/studio/releases/platform-tools)
 
@@ -27,7 +27,7 @@
 > [!NOTE]
 > Все ваши данные будут удалены! Сделайте резервную копию сейчас, если необходимо.
 >
-> **ПОЖАЛУЙСТА, НЕ ИСПОЛЬЗУЙТЕ НИКАКИЕ ВИДЕОРУКОВОДСТВА НА YOUTUBE ИЛИ ЛЮБОЙ ДРУГОЙ ПЛАТФОРМЕ!**
+> **ПОЖАЛУЙСТА, НЕ ИСПОЛЬЗУЙТЕ НИКАКИЕ ВИДЕОРУКОВОДСТВА НА YOUTUBE ИЛИ ЛЮБОЙ ДРУГОЙ ПЛАТФОРМЕ! ЭТИ МАТЕРИАЛЫ НЕ ЯВЛЯЮТСЯ АКТУАЛЬНЫМИ**
 
 ### Запустите WoN Deployer (Установщик Windows on Nabu)
 - Откройте **`PowerShell/Терминал`** от имени администратора и выполните следующую команду:
@@ -60,7 +60,7 @@ won-deployer -h
 <a href="won-deployer-install-ru.md"><img src="https://github.com/ArKT-7/won-deployer/blob/main/assets/Won-nabu-bg.png" width="280"></a>
 
 ### Перезагрузитесь в режим fastboot
-- Загрузите планшет в режим **fastboot**, удерживая кнопки **`уменьшения громкости`** + **`питания`** или запустив `adb reboot bootloader` во время загрузки в Android.
+- Загрузите планшет в режим **fastboot**, удерживая кнопки **`уменьшения громкости`** + **`питания`** или запустив `adb reboot bootloader` в загруженном Android со включенной откладкой USB.
 
 ### Запустите WoN Deployer
 - Откройте **`PowerShell`** или **`Терминал`** как администратор.
@@ -89,7 +89,7 @@ won-deployer
 - **`Удачи`**.
 
 > [!IMPORTANT]
-> Если вы столкнулись с какой-либо ошибкой, выполните команду ниже и отправьте снимок экрана [@ArKT_7](https://telegram.me/ArKT_7) или попросите о помощи в [Официальной группе Telegram](https://telegram.me/nabuwoaru)
+> Если вы столкнулись с какой-либо ошибкой, выполните команду ниже и отправьте снимок экрана [@ArKT_7](https://telegram.me/ArKT_7) или попросите о помощи в [Официальной группе Telegram](https://telegram.me/nabuwoa)
 ### перезапустите программу с подробным выводом логов
 
 1. Закройте PowerShell/Терминал, который вы открыли ранее
@@ -112,8 +112,8 @@ won-deployer --debug
 - Откройте новое приложение `Won deployer setup`, установите оба приложения и образ UEFI (следуйте инструкциям на экране).
 - Закройте все и снова откройте приложение `Magisk`, нажмите `OK`, чтобы завершить дополнительную настройку.
 - После перезагрузки откройте приложение `WOA Helper` и предоставьте ему root-доступ.
-- Нажмите `BACKUP BOOT IMAGE` > `Windows` > OK Готово!
-- Теперь используйте приложение WOA Helper и нажмите кнопку **QUICKBOOT TO WINDOWS**.
+- Нажмите `РЕЗЕРВНОЕ КОПИРОВАНИЕ BOOT ОБРАЗА` > `Windows` > OK Готово!
+- Теперь используйте приложение WOA Helper и нажмите кнопку **БЫСТРАЯ ПЕРЕЗАГРУЗКА В WINDOWS**.
 
 <details>
 <summary><b><strong>Если возникли проблемы с предыдущим методом, можно выполнить настройку Dualboot отсюда:</strong></b></summary>
@@ -121,15 +121,15 @@ won-deployer --debug
 ### Требования
 - [```Приложение Magisk```](https://raw.githubusercontent.com/arkt-7/won-deployer/main/files/Magisk_stable.apk)
 
-- [```Приложение WoA Helper```](https://github.com/Marius586/WoA-Helper-update/releases/tag/WOA)
+- [```Приложение WoA Helper```](https://github.com/n00b69/woa-helper/releases/tag/APK)
 
-- [```Образ UEFI```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/download/UEFI/uefi-v3.img)
+- [```Образ UEFI```](https://github.com/erdilS/Port-Windows-11-Xiaomi-Pad-5/releases/tag/UEFI)
 
 ### Настройка - Android вручную
 - Скачайте и установите приложение `Magisk`.
 - Скачайте и установите приложение `WOA Helper`, откройте его и предоставьте root-доступ.
 - Скачайте `образ UEFI` и поместите его в папку `UEFI` на внутреннем хранилище.
-- Откройте приложение WOA Helper и нажмите кнопку **QUICKBOOT TO WINDOWS**.
+- Откройте приложение WOA Helper и нажмите кнопку **БЫСТРАЯ ЗАГРУЗКА В WINDOWS**.
 
   </summary>
 </details>
